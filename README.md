@@ -1,12 +1,8 @@
 # Differentiable-PVQM
 
-The main.py file contains the model architecture of the network described in the paper --{Insert ref here}--. To see the model summary, including weights, layer arguements and activation functions, utilize the 
-```python
-model.summary()
-```
-function after compiling. You can also generate a diagram of the network through the
+This repo consists of the code and trained model for an updated version of the Differentiable VMAF using Tensorflow.
+The model was trained used the luma channel which is of the range 0-1. 
+The input data to this model should be of the size BatchSizexNumberOfFramesxHeightxWidthxChannels.
 
-```python
-keras.utils.vis_utils.plot_model(args)
-```
-function. 
+To load the model, first clone this repo, and ensure you have all required packages installed.
+The file test.py shows how to use this model. 

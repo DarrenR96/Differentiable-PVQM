@@ -1,0 +1,1 @@
+{"numFrames": 3, "patchSize": 128, "effNet": false, "combineMethod": "ABSOLUTE", "singleFrameFilters": [12, 18, 24], "multiFrameFilters": [48, 64], "combinedBranchFilters": [128, 142], "finalDense": [128, 64, 16, 1]}
